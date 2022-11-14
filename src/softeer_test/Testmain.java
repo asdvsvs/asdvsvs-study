@@ -1,7 +1,10 @@
+
+	
 package softeer_test;
 
 import java.util.Scanner;
 
+import dp.Climbing_stairs;
 import dp.Fibonacci2;
 import dp.Make1;
 
@@ -34,9 +37,13 @@ public class Testmain {
 //		fibo.fibonacci();
 		
 //		1로만들기, https://st-lab.tistory.com/133
-		Make1 make = new Make1();
-		Scanner sc = new Scanner(System.in);
-		int n = sc.nextInt();
-		System.out.println(make.make1(n,0));
+//		Make1 make = new Make1();
+//		Scanner sc = new Scanner(System.in);
+//		int n = sc.nextInt();
+//		System.out.println(make.make1(n,0));
+		
+//		계단오르기
+		Climbing_stairs climb = new Climbing_stairs();
+		climb.climbing_stairs();
 	}
 }
