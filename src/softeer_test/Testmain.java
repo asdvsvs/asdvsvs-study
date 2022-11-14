@@ -5,8 +5,11 @@ package softeer_test;
 import java.util.Scanner;
 
 import dp.Climbing_stairs;
+import dp.Decreasing_sequence;
 import dp.Fibonacci2;
 import dp.Make1;
+import dp.Resign2;
+import dp.Tile2xn;
 
 public class Testmain {
 
@@ -43,7 +46,19 @@ public class Testmain {
 //		System.out.println(make.make1(n,0));
 		
 //		계단오르기
-		Climbing_stairs climb = new Climbing_stairs();
-		climb.climbing_stairs();
+//		Climbing_stairs climb = new Climbing_stairs();
+//		climb.climbing_stairs();
+		
+//		2xn 타일링
+//		Tile2xn tile = new Tile2xn();
+//		tile.tile2xn();
+		
+//		가장 긴 감소하는 부분 수열
+//		Decreasing_sequence decresing = new Decreasing_sequence();
+//		decresing.decreeasing();
+		
+//		퇴사2
+		Resign2 resign2 = new Resign2();
+		resign2.resign2();
 	}
 }
