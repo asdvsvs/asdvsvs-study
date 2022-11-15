@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 import dp.Climbing_stairs;
 import dp.Decreasing_sequence;
+import dp.Downhill;
 import dp.Fibonacci2;
 import dp.Make1;
 import dp.Resign2;
@@ -57,8 +58,12 @@ public class Testmain {
 //		Decreasing_sequence decresing = new Decreasing_sequence();
 //		decresing.decreeasing();
 		
-//		퇴사2
-		Resign2 resign2 = new Resign2();
-		resign2.resign2();
+//		퇴사2, 내가 못품
+//		Resign2 resign2 = new Resign2();
+//		resign2.resign2();
+		
+//		내리막길
+		Downhill downhill= new Downhill();
+		downhill.downhill();
 	}
 }
