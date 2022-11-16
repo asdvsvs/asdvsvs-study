@@ -70,26 +70,55 @@ import java.util.Arrays;
 //}
 
 //백준4673
-import java.util.Arrays;
-public class Main {
+//import java.util.Arrays;
+//public class Main {
+//	public static void main(String[] args) {
+//    	int n=10000;
+//    	int p=0;
+//    	int[] s= new int[n];
+//        for (int i = 1; i < n; i*=10) {
+//        	for (int j = i; j <10*i; j++) {
+//        		p=j%i;
+//        		while(p>=10){
+//        			s[j]=s[j]+p%10;
+//        			p=(p/10);
+//        		}
+//    			s[j]=s[j]+j+(j/i)+p;
+//			}
+//		}
+//        Arrays.sort(s);
+//        for (int i = 1; i <= n; i++) {
+//        	if(Arrays.binarySearch(s, i)>0)continue;
+//        	System.out.println(i);
+//		}
+//    }
+//}
+
+//백준 1065
+import java.util.Scanner;
+public class main{
 	public static void main(String[] args) {
-    	int n=10000;
-    	int p=0;
-    	int[] s= new int[n];
-        for (int i = 1; i < n; i*=10) {
-        	for (int j = i; j <10*i; j++) {
-        		p=j%i;
-        		while(p>10){
-        			s[j]=s[j]+p%10;
-        			p=(p/10);
-        		}
-    			s[j]=s[j]+j+(j/i)+p;
-			}
-		}
-        Arrays.sort(s);
-        for (int i = 1; i <= n; i++) {
-        	if(Arrays.binarySearch(s, i)>0)continue;
-        	System.out.println(i);
-		}
-    }
+		Scanner sc = new Scanner(System.in);
+//		int n = sc.nextInt();
+        int n = 111;
+		int count =0;
+        
+		int[] jarisu = new int[4];
+		for (int i = 1; i <= n; i*=10) {
+            for(int j =i; j <= n; i++){
+                if(j<100)count++;
+                while(j%i>0) {
+                	jarisu[i]=j%i; 
+                	
+                	}
+                }
+            }
+			
+		System.out.println(count);
+	}
 }
+
+111 123 135 147 159
+222 234 246 258 210
+333 345 357 369 321
+444 456 469 420 432
