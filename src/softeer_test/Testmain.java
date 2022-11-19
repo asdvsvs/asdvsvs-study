@@ -4,6 +4,9 @@ package softeer_test;
 
 import java.util.Scanner;
 
+import baekjoon_level.Blackjack;
+import baekjoon_level.Factorial;
+import baekjoon_level.Hansu;
 import dp.Climbing_stairs;
 import dp.Decreasing_sequence;
 import dp.Downhill;
@@ -63,7 +66,24 @@ public class Testmain {
 //		resign2.resign2();
 		
 //		내리막길
-		Downhill downhill= new Downhill();
-		downhill.downhill();
+//		Downhill downhill= new Downhill();
+//		downhill.downhill();
+		
+//		한수
+//		Hansu t = new Hansu();
+//		t.hansu();
+		
+//		팩토리얼, 10872번 재귀
+//		Scanner sc = new Scanner(System.in);
+//        int n = sc.nextInt();
+//        sc.close();
+//		Factorial fac = new Factorial();
+//		System.out.println(fac.factorial(n));
+
+//		블랙잭, 2798번
+//		Blackjack black = new Blackjack();
+//		black.blackjack();
+
+
 	}
 }
