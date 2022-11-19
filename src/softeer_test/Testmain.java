@@ -4,6 +4,9 @@ package softeer_test;
 
 import java.util.Scanner;
 
+import baekjoon_level.Blackjack;
+import baekjoon_level.Factorial;
+import baekjoon_level.Hansu;
 import dp.Climbing_stairs;
 import dp.Decreasing_sequence;
 import dp.Downhill;
@@ -66,10 +69,13 @@ public class Testmain {
 //		Downhill downhill= new Downhill();
 //		downhill.downhill();
 		
+<<<<<<< HEAD
 //		인접 행렬, 소프티어 모의테스트
 //		Procession_size pro = new Procession_size();
 //		pro.procession_size();
 		
+=======
+>>>>>>> 47cace66dd58cc9b64c6f2dfcf85b470009459cb
 //		한수
 //		Hansu t = new Hansu();
 //		t.hansu();
@@ -84,5 +90,10 @@ public class Testmain {
 //		블랙잭, 2798번
 //		Blackjack black = new Blackjack();
 //		black.blackjack();
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 47cace66dd58cc9b64c6f2dfcf85b470009459cb
 	}
 }
