@@ -95,30 +95,30 @@ import java.util.Arrays;
 //}
 
 //น้มุ 1065
-import java.util.Scanner;
-public class main{
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-//		int n = sc.nextInt();
-        int n = 111;
-		int count =0;
-        
-		int[] jarisu = new int[4];
-		for (int i = 1; i <= n; i*=10) {
-            for(int j =i; j <= n; i++){
-                if(j<100)count++;
-                while(j%i>0) {
-                	jarisu[i]=j%i; 
-                	
-                	}
-                }
-            }
-			
-		System.out.println(count);
-	}
-}
-
-111 123 135 147 159
-222 234 246 258 210
-333 345 357 369 321
-444 456 469 420 432
+//import java.util.Scanner;
+//public class main{
+//	public static void main(String[] args) {
+//		Scanner sc = new Scanner(System.in);
+////		int n = sc.nextInt();
+//        int n = 111;
+//		int count =0;
+//        
+//		int[] jarisu = new int[4];
+//		for (int i = 1; i <= n; i*=10) {
+//            for(int j =i; j <= n; i++){
+//                if(j<100)count++;
+//                while(j%i>0) {
+//                	jarisu[i]=j%i; 
+//                	
+//                	}
+//                }
+//            }
+//			
+//		System.out.println(count);
+//	}
+//}
+//
+//111 123 135 147 159
+//222 234 246 258 210
+//333 345 357 369 321
+//444 456 469 420 432

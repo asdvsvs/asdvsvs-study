@@ -63,7 +63,11 @@ public class Testmain {
 //		resign2.resign2();
 		
 //		내리막길
-		Downhill downhill= new Downhill();
-		downhill.downhill();
+//		Downhill downhill= new Downhill();
+//		downhill.downhill();
+		
+//		인접 행렬, 소프티어 모의테스트
+		Procession_size pro = new Procession_size();
+		pro.procession_size();
 	}
 }
