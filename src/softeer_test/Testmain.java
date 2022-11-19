@@ -67,7 +67,22 @@ public class Testmain {
 //		downhill.downhill();
 		
 //		인접 행렬, 소프티어 모의테스트
-		Procession_size pro = new Procession_size();
-		pro.procession_size();
+//		Procession_size pro = new Procession_size();
+//		pro.procession_size();
+		
+//		한수
+//		Hansu t = new Hansu();
+//		t.hansu();
+		
+//		팩토리얼, 10872번 재귀
+//		Scanner sc = new Scanner(System.in);
+//        int n = sc.nextInt();
+//        sc.close();
+//		Factorial fac = new Factorial();
+//		System.out.println(fac.factorial(n));
+
+//		블랙잭, 2798번
+//		Blackjack black = new Blackjack();
+//		black.blackjack();
 	}
 }
