@@ -2,11 +2,19 @@
 	
 package softeer_test;
 
+import java.awt.Checkbox;
+import java.net.http.HttpResponse.BodyHandler;
 import java.util.Scanner;
 
+import javax.swing.plaf.basic.BasicInternalFrameTitlePane.MoveAction;
+
 import baekjoon_level.Blackjack;
+import baekjoon_level.Bodysize;
+import baekjoon_level.Chess_repaint;
+import baekjoon_level.Decomposition;
 import baekjoon_level.Factorial;
 import baekjoon_level.Hansu;
+import baekjoon_level.Moviedirector_soum;
 import dp.Climbing_stairs;
 import dp.Decreasing_sequence;
 import dp.Downhill;
@@ -86,9 +94,24 @@ public class Testmain {
 //		Factorial fac = new Factorial();
 //		System.out.println(fac.factorial(n));
 
-		블랙잭, 2798번
-		Blackjack black = new Blackjack();
-		black.blackjack();
-
+//		블랙잭, 2798번
+//		Blackjack black = new Blackjack();
+//		black.blackjack();
+		
+//		분해합 2231번
+//		Decomposition decom = new Decomposition();
+//		decom.decomposition();
+		
+//		덩치 7568번
+//		Bodysize body = new Bodysize();
+//		body.bodysize();
+		
+//		체스판 다시 칠하기 1018번
+//		Chess_repaint chess = new Chess_repaint();
+//		chess.chess_repaint();
+		
+//		영화감독 숌 1436번
+		Moviedirector_soum movie = new Moviedirector_soum();
+		movie.moviedirector_soum();
 	}
 }
