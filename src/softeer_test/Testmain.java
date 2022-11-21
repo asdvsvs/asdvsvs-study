@@ -111,7 +111,15 @@ public class Testmain {
 //		chess.chess_repaint();
 		
 //		영화감독 숌 1436번
-		Moviedirector_soum movie = new Moviedirector_soum();
-		movie.moviedirector_soum();
+//		Moviedirector_soum movie = new Moviedirector_soum();
+//		movie.moviedirector_soum();
+		
+//		흑백이미지 압축 소프티어코테 문제
+//		Blackwhite bw = new Blackwhite();
+//		bw.blackwhite();
+		
+//		칠하기 놀이 소프티어코테 문제
+		Paint p = new Paint();
+		p.paint();
 	}
 }
