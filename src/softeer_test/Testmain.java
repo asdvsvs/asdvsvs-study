@@ -15,6 +15,7 @@ import baekjoon_level.Decomposition;
 import baekjoon_level.Factorial;
 import baekjoon_level.Hansu;
 import baekjoon_level.Moviedirector_soum;
+import baekjoon_level.Space_sum;
 import dp.Climbing_stairs;
 import dp.Decreasing_sequence;
 import dp.Downhill;
@@ -119,7 +120,11 @@ public class Testmain {
 //		bw.blackwhite();
 		
 //		칠하기 놀이 소프티어코테 문제
-		Paint p = new Paint();
-		p.paint();
+//		Paint p = new Paint();
+//		p.paint();
+		
+//		구간 합 구하기4, 11659번
+		Space_sum spacesum = new Space_sum();
+		spacesum.space_sum();
 	}
 }
