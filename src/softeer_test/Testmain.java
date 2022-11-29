@@ -3,7 +3,7 @@
 package softeer_test;
 
 import java.awt.Checkbox;
-import java.net.http.HttpResponse.BodyHandler;
+//import java.net.http.HttpResponse.BodyHandler;
 import java.util.Scanner;
 
 import javax.swing.plaf.basic.BasicInternalFrameTitlePane.MoveAction;
@@ -15,6 +15,7 @@ import baekjoon_level.Decomposition;
 import baekjoon_level.Factorial;
 import baekjoon_level.Hansu;
 import baekjoon_level.Moviedirector_soum;
+//import baekjoon_level.NM_1;
 import baekjoon_level.Space_sum;
 import dp.Climbing_stairs;
 import dp.Decreasing_sequence;
@@ -124,7 +125,13 @@ public class Testmain {
 //		p.paint();
 		
 //		구간 합 구하기4, 11659번
-		Space_sum spacesum = new Space_sum();
-		spacesum.space_sum();
+//		Space_sum spacesum = new Space_sum();
+//		spacesum.space_sum();
+		
+//		N과 M(1) 15649번
+//		NM_1 nm1 = new NM_1();
+//		nm1.nm_1();
+		
+		
 	}
 }
