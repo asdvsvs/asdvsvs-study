@@ -3,11 +3,12 @@
 package softeer_test;
 
 import java.awt.Checkbox;
+import java.util.*;
 //import java.net.http.HttpResponse.BodyHandler;
 import java.util.Scanner;
 
 import javax.swing.plaf.basic.BasicInternalFrameTitlePane.MoveAction;
-
+import baekjoon_level.*;
 import baekjoon_level.Blackjack;
 import baekjoon_level.Bodysize;
 import baekjoon_level.Chess_repaint;
@@ -17,6 +18,7 @@ import baekjoon_level.Hansu;
 import baekjoon_level.Moviedirector_soum;
 //import baekjoon_level.NM_1;
 import baekjoon_level.Space_sum;
+import dp.*;
 import dp.Climbing_stairs;
 import dp.Decreasing_sequence;
 import dp.Downhill;
@@ -28,6 +30,7 @@ import dp.Tile2xn;
 public class Testmain {
 
 	public static void main(String[] args) {
+		
 		
 //		Æò±ÕÁ¡¼ö
 //		Score_avg scoreavg = new Score_avg();
