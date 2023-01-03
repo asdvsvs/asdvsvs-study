@@ -2,22 +2,16 @@
 	
 package softeer_test;
 
+import java.io.*;
 import java.awt.Checkbox;
 import java.util.*;
 //import java.net.http.HttpResponse.BodyHandler;
 import java.util.Scanner;
 
 import javax.swing.plaf.basic.BasicInternalFrameTitlePane.MoveAction;
-import baekjoon_level.*;
-import baekjoon_level.Blackjack;
-import baekjoon_level.Bodysize;
-import baekjoon_level.Chess_repaint;
-import baekjoon_level.Decomposition;
-import baekjoon_level.Factorial;
-import baekjoon_level.Hansu;
-import baekjoon_level.Moviedirector_soum;
+
 //import baekjoon_level.NM_1;
-import baekjoon_level.Space_sum;
+import baekjoon_level.*;
 import dp.*;
 import dp.Climbing_stairs;
 import dp.Decreasing_sequence;
@@ -29,7 +23,7 @@ import dp.Tile2xn;
 
 public class Testmain {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		
 		
 //		평균점수
@@ -135,6 +129,16 @@ public class Testmain {
 //		NM_1 nm1 = new NM_1();
 //		nm1.nm_1();
 		
+//		손익분기점 1712번
+//		Breakeven_point breakpoint = new Breakeven_point();
+//		breakpoint.breakeven_point();
 		
+//		벌집 2292번
+//		Honeycomb honeycomb = new Honeycomb();
+//		honeycomb.honeycomb();
+		
+//		분수찾기 1193번
+		Fraction_find fraction = new Fraction_find();
+		fraction.fraction_find();
 	}
 }
