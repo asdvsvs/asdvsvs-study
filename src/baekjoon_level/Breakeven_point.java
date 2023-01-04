@@ -21,5 +21,6 @@ public class Breakeven_point {
 		}
 		else num=-1;
 		System.out.println(num);
+		
 	}
 }

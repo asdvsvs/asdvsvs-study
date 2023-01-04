@@ -48,5 +48,6 @@ public class Fraction_find {
 		}
 		
 		
+		
 	}
 }
