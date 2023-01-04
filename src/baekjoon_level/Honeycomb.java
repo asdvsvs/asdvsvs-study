@@ -1,5 +1,4 @@
 package baekjoon_level;
-
 import java.io.*;
 
 public class Honeycomb {
