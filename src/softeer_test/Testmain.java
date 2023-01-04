@@ -137,7 +137,7 @@ public class Testmain {
 //		Honeycomb honeycomb = new Honeycomb();
 //		honeycomb.honeycomb();
 		
-//		분수찾기 1193번 
+//		분수찾기 1193번
 		Fraction_find fraction = new Fraction_find();
 		fraction.fraction_find();
 	}

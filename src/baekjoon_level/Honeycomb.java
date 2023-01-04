@@ -13,7 +13,7 @@ public class Honeycomb {
 				move++;
 				t=t+move;
 			}
-		}
+		} 
 		if(n==1)System.out.println(1);
 		else System.out.println(move+1);
 	}
