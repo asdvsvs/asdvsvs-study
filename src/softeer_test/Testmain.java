@@ -138,7 +138,27 @@ public class Testmain {
 //		honeycomb.honeycomb();
 		
 //		분수찾기 1193번 
-		Fraction_find fraction = new Fraction_find();
-		fraction.fraction_find();
+//		Fraction_find fraction = new Fraction_find();
+//		fraction.fraction_find();
+		
+//		달팽이는 올라가고싶다 2869번
+//		Baekjoon_2869 baek2869 = new Baekjoon_2869();
+//		baek2869.baekjoon_2869();
+		
+//		ACM호텔 10250번
+//		Baekjoon_10250 baek10250 = new Baekjoon_10250();
+//		baek10250.beaekjoon_10250();
+		
+//		부녀회장이 될테야 2775번, 테스트 케이스 여러개일때는 배열에 값저장 후 이용하면 더 빠름(재귀로 안푸는방법)
+//		Baekjoon_2775 baek2775 = new Baekjoon_2775();
+//		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+//		int t = Integer.parseInt(bf.readLine());
+//		for (int i = 0; i < t; i++) {
+//			int k = Integer.parseInt(bf.readLine());
+//			int n = Integer.parseInt(bf.readLine());
+//			System.out.println(baek2775.baekjoon_2775(k,n));
+//		}
+		
+		
 	}
 }
