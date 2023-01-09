@@ -159,6 +159,8 @@ public class Testmain {
 //			System.out.println(baek2775.baekjoon_2775(k,n));
 //		}
 		
-		
+//		설탕배달 2839번
+		Baekjoon_2839 baek2839 = new Baekjoon_2839();
+		baek2839.baekjoon_2839();
 	}
 }
