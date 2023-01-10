@@ -160,7 +160,15 @@ public class Testmain {
 //		}
 		
 //		¼³ÅÁ¹è´Þ 2839¹ø
-		Baekjoon_2839 baek2839 = new Baekjoon_2839();
-		baek2839.baekjoon_2839();
+//		Baekjoon_2839 baek2839 = new Baekjoon_2839();
+//		baek2839.baekjoon_2839();
+		
+//		Å« ¼ö A+B 10757¹ø
+//		Baekjoon_10757 baek10757 = new Baekjoon_10757();
+//		baek10757.baekjoon_10757();
+		
+//		Çà·Ä µ¡¼À 2738¹ø
+		Baekjoon_2738 baek2738 = new Baekjoon_2738();
+		baek2738.baekjoon_2738();
 	}
 }

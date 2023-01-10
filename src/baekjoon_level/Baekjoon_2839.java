@@ -10,25 +10,14 @@ public class Baekjoon_2839 {
 		int N = Integer.parseInt(bf.readLine());
 		
 		int count;
+		int cntmin=N;
 		for (int i = 0; i < N/5 +1; i++) {
 			if((N-(5*i))%3==0){
-				count =i+N/3;
-				int temp =count;
-				count = Math.min(temp, count);
+				count =i+(N-(5*i))/3;
+				cntmin = Math.min(cntmin, count);
 			}
-			
-			
 		}
-		
-//		int num=0;
-//		if((N%5)%3 ==0){
-//			num+=N/5;
-//			num+=(N%5)/3;
-//		}
-//		else if((N%5)%3 !=0 && N%3 !=0)num=-1;
-//		else num=N/3;
-		
-		
-//		System.out.println(count);
+		if (cntmin==N)cntmin=-1;
+		System.out.println(cntmin);
 	}
 }
