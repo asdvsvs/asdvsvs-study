@@ -168,7 +168,35 @@ public class Testmain {
 //		baek10757.baekjoon_10757();
 		
 //		행렬 덧셈 2738번
-		Baekjoon_2738 baek2738 = new Baekjoon_2738();
-		baek2738.baekjoon_2738();
+//		Baekjoon_2738 baek2738 = new Baekjoon_2738();
+//		baek2738.baekjoon_2738();
+		
+//		최댓값 2566번
+//		Baekjoon_2566 baek2566 = new Baekjoon_2566();
+//		baek2566.baekjoon_2556();
+		
+//		색종이 2563번
+//		Baekjoon_2563 baek2563 = new Baekjoon_2563();
+//		baek2563.baekjoon_2563();
+		
+//		수 정렬하기 2750번
+//		Baekjoon_2750 baek2750 = new Baekjoon_2750();
+//		baek2750.baekjoon_2759();
+		
+//		대표값 2587번
+//		Baekjoon_2587 baek2587 = new Baekjoon_2587();
+//		baek2587.baekjoon_2587();
+		
+//		커트라인 25305번
+//		Baekjoon_25305 baek25305 = new Baekjoon_25305();
+//		baek25305.baekjoon_25305();
+		
+//		수 정렬하기2 2751번
+//		Baekjoon_2751 baek2751 = new Baekjoon_2751();
+//		baek2751.baekjoon_2751();
+		
+//		수 정렬하기3 10989번
+		Baekjoon_10989 baek10989 = new Baekjoon_10989();
+		baek10989.baekjoon_10989();
 	}
 }
