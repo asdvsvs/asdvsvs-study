@@ -196,7 +196,11 @@ public class Testmain {
 //		baek2751.baekjoon_2751();
 		
 //		수 정렬하기3 10989번
-		Baekjoon_10989 baek10989 = new Baekjoon_10989();
-		baek10989.baekjoon_10989();
+//		Baekjoon_10989 baek10989 = new Baekjoon_10989();
+//		baek10989.baekjoon_10989();
+		
+//		통계학 2108번
+		Baekjoon_2108 baek2108 = new Baekjoon_2108();
+		baek2108.baekjoon_2108();
 	}
 }
