@@ -200,7 +200,15 @@ public class Testmain {
 //		baek10989.baekjoon_10989();
 		
 //		통계학 2108번
-		Baekjoon_2108 baek2108 = new Baekjoon_2108();
-		baek2108.baekjoon_2108();
+//		Baekjoon_2108 baek2108 = new Baekjoon_2108();
+//		baek2108.baekjoon_2108();
+		
+//		소트인사이드 1427번
+//		Baekjoon_1427 baek1427 = new Baekjoon_1427();
+//		baek1427.baekjoon_1427();
+		
+//		좌표 정렬하기 11650번
+		Baekjoon_11650 baek11650 = new Baekjoon_11650();
+		baek11650.baekjoon_11650();
 	}
 }
