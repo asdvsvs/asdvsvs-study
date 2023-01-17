@@ -17,35 +17,41 @@ public class Baekjoon_11650 {
 			x[i] = Integer.parseInt(st.nextToken());
 			y[i] = Integer.parseInt(st.nextToken());
 		}
-		int sortx[]=x;
-		int sorty[]= new int[N];
+		int[] sortx = new int[N];
+		int[] sorty = new int[N];
+		for (int i = 0; i < N; i++) sortx[i]=x[i];
 		Arrays.sort(sortx);
+		
 		for (int i = 0; i < N; i++) {
-			for (int j = 0; j < N; j++) {
-				if(sortx[i]==x[j]){
-					sorty[i]=y[j];
-					x[j]--;
-				}
-			}
-		}
-		int cnt=1;
-		int[] arr;
-		for (int j = 0; j < N; j++) {
-			if(sortx[j]==sortx[j+1]){
-				cnt++;
-			}
-			else{
-				arr = new int[cnt];
-				for (int i = 0; i < cnt; i++) {
-					arr[i]=sorty[i];
-					}
-				Arrays.sort(arr);
-				
-				
+			int cnt=1;
+			int arrcnt=0;
+			int[] arr= new int[N];
+			for (int j = i+1; j < N; j++){
+				if(sortx[i]==sortx[j])cnt++;
+				arr[arrcnt]=j;
+				arrcnt++;
 			}
 
+			if(cnt>1){
+				int[] temp = new int[cnt];
+				for (int k = 0; k < cnt; k++)temp[k]=y[arr[k]];
+				Arrays.sort(temp);
+				for (int k = 0; k < cnt; k++)sorty[i+k]=temp[k];
+				i+=cnt-1;
+			}
+			else {
+				for (int j = 0; j < N; j++) {
+					if(sortx[i]==x[j]){
+						sorty[i]=y[j];
+						break;
+					}
+				}
+			}	
+		}		
+		for (int i = 0; i < N; i++) {
+			bw.write(String.valueOf(sortx[i])+" "+String.valueOf(sorty[i]));
+			bw.newLine();
 		}
-		
 		bw.flush();
 		bw.close();
 	}
