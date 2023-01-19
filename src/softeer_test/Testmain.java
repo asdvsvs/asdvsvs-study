@@ -208,7 +208,15 @@ public class Testmain {
 //		baek1427.baekjoon_1427();
 		
 //		좌표 정렬하기 11650번
-		Baekjoon_11650 baek11650 = new Baekjoon_11650();
-		baek11650.baekjoon_11650();
+//		Baekjoon_11650 baek11650 = new Baekjoon_11650();
+//		baek11650.baekjoon_11650();
+
+//		좌표정렬하기2 11651번
+//		Baekjoon_11651 baek11651 = new Baekjoon_11651();
+//		baek11651.baekjoon_11651();
+		
+//		단어 정렬 1181번
+		Baekjoon_1181 baek1181 = new Baekjoon_1181();
+		baek1181.baekjoon_1181();
 	}
 }
