@@ -216,7 +216,11 @@ public class Testmain {
 //		baek11651.baekjoon_11651();
 		
 //		단어 정렬 1181번
-		Baekjoon_1181 baek1181 = new Baekjoon_1181();
-		baek1181.baekjoon_1181();
+//		Baekjoon_1181 baek1181 = new Baekjoon_1181();
+//		baek1181.baekjoon_1181();
+		
+//		나이순정렬 10814번
+		Baekjoon_10814 baek10814 = new Baekjoon_10814();
+		baek10814.baekjoon10814();
 	}
 }
