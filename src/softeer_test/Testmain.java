@@ -220,7 +220,11 @@ public class Testmain {
 //		baek1181.baekjoon_1181();
 		
 //		나이순정렬 10814번
-		Baekjoon_10814 baek10814 = new Baekjoon_10814();
-		baek10814.baekjoon10814();
+//		Baekjoon_10814 baek10814 = new Baekjoon_10814();
+//		baek10814.baekjoon10814();
+		
+//		좌표 압축 18870번
+		Baekjoon_18870 baek18870 = new Baekjoon_18870();
+		baek18870.baekjoon_18870();
 	}
 }
